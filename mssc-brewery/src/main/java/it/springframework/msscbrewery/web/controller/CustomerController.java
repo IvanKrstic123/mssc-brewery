@@ -45,6 +45,5 @@ public class CustomerController {
     public void deleteCustomer(@PathVariable("customerId") UUID customerId) {
         customerService.deleteCustomerById(customerId);
     }
-    //todo DELETE
 
 }
